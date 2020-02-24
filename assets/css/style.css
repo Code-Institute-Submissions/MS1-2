@@ -14,23 +14,32 @@ font-family: 'Raleway', sans-serif;
   justify-content: center;
 }
 
-.nav-bar-color{
-        background-color: rgba(236, 138, 229, 0.28)
+/*navbar styling */
+ .navbar {
+     margin-bottom: 0;
+     border: 0;
+     width: 100%;
+     background-color: rgba(236, 138, 229, 0.28)
+ }
+
+.navbar .navbar-toggler{
+    border: 0;
 }
 
 .navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.5rem;
-    line-height: inherit;
-    white-space: nowrap;
     font-weight: bold;
 }
 
-.video-container{
+.navbar .navbar-nav a{
+font-weight: bold;
+}
 
+.lip-container{
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+border: 0;
 }
 
 .opening-statement{
