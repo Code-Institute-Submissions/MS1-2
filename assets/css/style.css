@@ -1,3 +1,79 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+.firstpage-background{
+    height: 100vh;
+      background: url(../images/background.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar-color{
+        background-color: rgba(236, 138, 229, 0.28)
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.video-container{
+
+}
+
+.opening-statement{
+
+}
+
+.customer-gallery-container{
+
+}
+
+.reviews-container{
+
+}
+
+/*page dividers*/
+.page-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+     background-color:#e693c0;
+}
+
+/*jumbotron-header*/
+.jumbotron-header{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.finance-container{
+
+}
+
+.journey-container{
+
+}
+
+
+
+
+
+
+
+
 .kiss {
   display: block;
   margin-left: auto;
@@ -5,3 +81,4 @@
   width: 100%;
   height: 500px;
 }
+
