@@ -50,6 +50,10 @@ border: 0;
 }
 
 /*reviews*/
+
+
+
+
 .card-body{
 background-color: rgba(236, 138, 229, 0.28)
 }
@@ -71,23 +75,19 @@ background-color: rgba(236, 138, 229, 0.28)
     font-weight: bold;
 }
 
-.page-header h2 {
-    margin-top: 0;
-}
-
 /*jumbotron-header*/
-.jumbotron-header{
+.jumbotron-header {
     font-weight: bold;
     margin-bottom: 30px;
 }
 /*page dividers*/
-.page-divider{
+.page-divider {
     width: 75px;
     height: 5px;
     border: 0;
-     background-color:#e693c0;
+    margin-top: 30px;
+    background-color:#e693c0;
 }
-
 
 .finance{
 
@@ -97,6 +97,8 @@ background-color: rgba(236, 138, 229, 0.28)
 
 }
 
+
+/*social networks- footer*/
 .social-networks {
 text-align: center;
 }
