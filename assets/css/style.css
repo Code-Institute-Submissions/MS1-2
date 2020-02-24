@@ -2,18 +2,16 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
-
-
 .firstpage-background {
     height: 100vh;
-      background: url(../images/background.JPG) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- display: flex;
-  align-items: center;
-  justify-content: center;
+    background: url(../images/background.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*navbar styling */
@@ -37,10 +35,8 @@ font-weight: bold;
 }
 
 .lip-container{
-padding-left: 0;
-padding-right: 0;
-margin-left: 0;
-margin-right: 0;
+padding: 0;
+margin: 0;
 border: 0;
 }
 
@@ -53,14 +49,23 @@ border: 0;
 
 }
 
-.reviews-container{
+/*reviews*/
+.card-body{
+background-color: rgba(236, 138, 229, 0.28)
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
 
+.card-text{
+    text-align: block;
 }
 
 /*page headers*/
 .page-header {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
     border-bottom: 0;
     text-align: center;
     font-weight: bold;
@@ -83,7 +88,8 @@ border: 0;
      background-color:#e693c0;
 }
 
-.finance-container{
+
+.finance{
 
 }
 
@@ -91,7 +97,20 @@ border: 0;
 
 }
 
+.social-networks {
+text-align: center;
+}
 
+.social-networks li {
+  display:inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin:1%;
+  padding:5%;
+  color: black;
+}
 
 
 
