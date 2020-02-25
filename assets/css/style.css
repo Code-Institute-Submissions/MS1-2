@@ -66,6 +66,7 @@ background-color: rgba(236, 138, 229, 0.28)
     text-align: block;
 }
 
+
 /*page headers*/
 .page-header {
     margin-top: 50px;
@@ -89,8 +90,8 @@ background-color: rgba(236, 138, 229, 0.28)
     background-color:#e693c0;
 }
 
-.finance{
-
+.subheading {
+    font-weight: bold;
 }
 
 .journey-container{
