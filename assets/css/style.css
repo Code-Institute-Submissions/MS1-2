@@ -120,7 +120,9 @@ padding: 20px;
 
 .sub-headings{
     padding-top: 30px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
 
 /*jumbotron-header*/
