@@ -28,6 +28,10 @@ font-family: 'Raleway', sans-serif;
      background-color: rgba(236, 138, 229, 0.28)
  }
 
+ .navbar-right a{
+float: right;
+ }
+
 .navbar .navbar-toggler{
     border: 0;
 }
@@ -71,9 +75,20 @@ background-color: black;
 color: white;
 }
 
+.container-fluid {
+        padding: 40px 40px 20px;
+}
+
 .card-body{
 background-color: black;
 color: white;
+flex: none;
+min-height: 1px;
+padding: 20px;
+}
+
+.card{
+    padding: 0;
 }
 
 .pink-undertone{
@@ -100,8 +115,8 @@ color: white;
 }
 
 .sub-headings{
-    padding: 20px;
-    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px
     }
 
 /*jumbotron-header*/
@@ -150,5 +165,24 @@ text-align: center;
   color: black
 }
 
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: o 4px;
+}
+
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
 
 
