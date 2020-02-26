@@ -3,6 +3,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 
+
+.finance-container .row {
+        flex-wrap: wrap;
+    display: block;
+}
+
 .background-image{
     background: url("../images/background.JPG") no-repeat center center fixed;
     background-size: cover;
