@@ -75,6 +75,10 @@ background-color: black;
 color: white;
 }
 
+.finance-container h1{
+padding: 20px;
+}
+
 .container-fluid {
         padding: 40px 40px 20px;
 }
@@ -135,34 +139,30 @@ padding: 20px;
 }
 
 
-.journey-container{
-
+.journey-container h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    font-weight: bold;
 }
 
-footer {
-background-color: black;
-min-height: 120px;
-margin: 0;
+.footer-details{
+padding: 20px;
 }
+
+.footer-details h5 {
+        padding-left: 20px
+    }
 
 .container-fluid{
         padding: 0;
 }
 
 /*social networks- footer*/
-.social-networks {
-text-align: center;
-}
-
-.social-networks li {
-  display:inline;
-}
-
-.social-networks i {
-  font-size: 160%;
-  margin:1%;
-  padding:5%;
-  color: black
+.social-icons a i {
+font-size: larger;
+color: black;
 }
 
 .row {
@@ -176,8 +176,6 @@ flex: 25%;
 max-width: 25%;
 padding: 0 4px;
 }
-
-
 
 .column img {
     margin-top: 8px;
