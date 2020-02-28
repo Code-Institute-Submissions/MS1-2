@@ -77,6 +77,7 @@ border: 0;
 }
 
 .btn-call-to-action {
+    font-weight: bolder;
 color: black;
 background-color: #e693c0;
 }
@@ -113,6 +114,13 @@ padding: 20px;
 .container-fluid {
         padding: 40px 40px 20px;
         margin: 0;
+}
+
+
+.central-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-body{
