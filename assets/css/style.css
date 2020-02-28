@@ -123,8 +123,9 @@ min-height: 1px;
 padding: 20px;
 }
 
-.card{
+.card-group .card{
     padding: 0;
+    margin-bottom: 0;
 }
 
 .pink-undertone{
