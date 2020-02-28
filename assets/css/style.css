@@ -2,6 +2,9 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
+.modal-body {
+    text-align: left;
+}
 
 
 .finance-container .row {
@@ -63,9 +66,16 @@ border: 0;
 }
 
 /* button*/
-.hvr-bounce-to-right:before {
-background-color: rgba(236, 138, 229, 0.28);
+
+.btn-later {
+    background-color: lightgrey;
+    color: gray;
 }
+
+.btn-now {
+    background-color: #e693c0
+}
+
 
 .button-spacing {
     margin-top: 30px;
