@@ -7,7 +7,9 @@ font-family: 'Raleway', sans-serif;
 .finance-container .row {
         flex-wrap: wrap;
     display: block;
+        margin: 0px;
 }
+
 
 .background-image{
     background: url("../images/background.JPG") no-repeat center center fixed;
@@ -79,6 +81,7 @@ border: 0;
 .finance-container{
 background-color: black;
 color: white;
+padding: 5px
 }
 
 .finance-container h1{
@@ -87,6 +90,7 @@ padding: 20px;
 
 .container-fluid {
         padding: 40px 40px 20px;
+        margin: 0;
 }
 
 .card-body{
