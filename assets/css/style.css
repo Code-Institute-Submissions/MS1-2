@@ -233,6 +233,7 @@ padding: 0 4px;
 }
 .procedure-info .img-left {
     float: left;
+    padding-bottom: 30px;
 }
 
 .info-product {
@@ -240,8 +241,9 @@ padding: 0 4px;
     position: absolute;
     margin-top: 14vh;
     padding-left: 30px;
-    margin-left: 20px;
+    margin-left: 25px;
     padding-top: 20px;
+    margin-bottom: 20vh;
 }
 
 .info-product h3 {
@@ -255,7 +257,3 @@ padding: 0 4px;
     padding-right: 20px;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
