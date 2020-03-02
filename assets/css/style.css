@@ -234,7 +234,24 @@ padding: 0 4px;
     display: absolute;
 }
 
+/*show on small screen*/
+/*@media screen and (min-width: 0px)
+and (max-width: 400px) {
+    #empty-space {display: block}
+}*/
 
+/*hide it elsewhere*/
+/*@media screen and (min-width: 401px)
+and (max-width: 1024px) {
+    #empty-space {display: none}
+}*/
+
+#empty-space {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    margin: 20px;
+}
 
 /*........lipfiller page*/
 .procedure-info img {
@@ -253,7 +270,7 @@ padding: 0 4px;
     padding-left: 30px;
     margin-left: 25px;
     padding-top: 20px;
-    margin-bottom: 24vh;
+    /*margin-bottom: 24vh;*/
 }
 
 .contact-details p {
