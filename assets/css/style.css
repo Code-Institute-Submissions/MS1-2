@@ -264,7 +264,7 @@ and (max-width: 1024px) {
 }
 
 .info-product {
-    padding-right: 10px;
+    padding-right: 40px;
     position: absolute;
     margin-top: 14vh;
     padding-left: 30px;
