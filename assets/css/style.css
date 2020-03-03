@@ -1,5 +1,6 @@
 body {
 font-family: 'Raleway', sans-serif;
+padding-top: 85px;
 }
 
 .modal-body {
@@ -143,6 +144,8 @@ padding: 20px;
 .card-group .card{
     padding: 0;
     margin-bottom: 0;
+    padding: 20px;
+    border: none;
 }
 
 .pink-undertone{
@@ -238,17 +241,6 @@ padding: 0 4px;
     display: absolute;
 }
 
-/*show on small screen*/
-/*@media screen and (min-width: 0px)
-and (max-width: 400px) {
-    #empty-space {display: block}
-}*/
-
-/*hide it elsewhere*/
-/*@media screen and (min-width: 401px)
-and (max-width: 1024px) {
-    #empty-space {display: none}
-}*/
 
 #empty-space {
     height: 120px;
@@ -271,7 +263,7 @@ and (max-width: 1024px) {
 .info-product {
     padding-right: 20px;
     position: absolute;
-    margin-top: 14vh;
+    margin-top: 5vh;
     padding-left: 20px;
     margin-left: 25px;
     padding-top: 20px;
@@ -293,3 +285,11 @@ and (max-width: 1024px) {
     padding-right: 20px;
 }
 
+.header-space {
+   height: 120px;
+    width: 90%;
+    position: absolute;
+    margin: 20px;
+    background-color: green;
+}
+}
