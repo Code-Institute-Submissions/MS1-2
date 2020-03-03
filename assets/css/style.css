@@ -37,7 +37,7 @@ padding-top: 55px;
      margin-bottom: 0;
      border: 0;
      width: 100%;
-     background-color: rgba(236, 138, 229, 0.28)
+    background-color: rgba(243, 157, 240, 0.96);
  }
 
  .navbar-right a{
@@ -67,7 +67,7 @@ border: 0;
 }
 
 .card-link :hover {
-    background-color: rgba(236, 138, 229, 0.28);
+    background-color: rgba(243, 157, 240, 0.96);
     color: black;
     text-decoration: none;
 }
@@ -83,13 +83,13 @@ border: 0;
 }
 
 .btn-now {
-    background-color: #e693c0
+        background-color: rgba(243, 157, 240, 0.96);
 }
 
 .btn-call-to-action {
     font-weight: bolder;
 color: black;
-background-color: #e693c0;
+    background-color: rgba(243, 157, 240, 0.96);
 }
 
 
@@ -153,7 +153,7 @@ padding: 20px;
 }
 
 .drop-down-style{
-    background-color: rgba(236, 138, 229, 0.966)
+        background-color: rgba(243, 157, 240, 0.96);
 }
 
 .card-title{
