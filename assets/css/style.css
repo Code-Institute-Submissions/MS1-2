@@ -1,5 +1,6 @@
 body {
 font-family: 'Raleway', sans-serif;
+padding-top: 55px;
 }
 
 .modal-body {
@@ -285,13 +286,19 @@ padding: 0 4px;
 }
 
 @media screen and (max-width:767px) {
-body {padding-top: 55px;}
+.index-image-big { display: none;}
+.img-left{ display: none;}
+/*.info-product {
+    background: url(../assets/images/background2.JPG) center no-repeat;
+    background-size: cover;}*/
+
+}
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-body {padding-top: 55px;}
+.index-image-small { display: none;}
 }
 
 @media screen and (min-width:929px) {
-body {padding-top: 55px;}
+.index-image-small { display: none;}
 }
