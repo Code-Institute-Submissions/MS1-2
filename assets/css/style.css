@@ -291,9 +291,12 @@ padding: 0 4px;
 /*.info-product {
     background: url(../assets/images/background2.JPG) center no-repeat;
     background-size: cover;}*/
+.page-footer h5 {
+    display: none;
+    }
+}
 
-}
-}
+
 
 @media screen and (min-width:768px) and (max-width:991px) {
 .index-image-small { display: none;}
