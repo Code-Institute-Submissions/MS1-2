@@ -1,6 +1,5 @@
 body {
 font-family: 'Raleway', sans-serif;
-padding-top: 85px;
 }
 
 .modal-body {
@@ -246,7 +245,7 @@ padding: 0 4px;
     height: 120px;
     width: 90%;
     position: absolute;
-    margin: 20px;
+    margin: 30px;
 }
 
 /*........lipfiller page*/
@@ -285,11 +284,14 @@ padding: 0 4px;
     padding-right: 20px;
 }
 
-.header-space {
-   height: 120px;
-    width: 90%;
-    position: absolute;
-    margin: 20px;
-    background-color: green;
+@media screen and (max-width:767px) {
+body {padding-top: 55px;}
 }
+
+@media screen and (min-width:768px) and (max-width:991px) {
+body {padding-top: 55px;}
+}
+
+@media screen and (min-width:929px) {
+body {padding-top: 55px;}
 }
