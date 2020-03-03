@@ -161,9 +161,6 @@ padding: 20px;
     font-weight: bold;
 }
 
-.card-text{
-    text-align: block;
-}
 
 
 
@@ -236,10 +233,6 @@ padding: 0 4px;
     width: 100%;
 }
 
-.product-images {
-    width: 33%;
-    display: absolute;
-}
 
 
 #empty-space {
