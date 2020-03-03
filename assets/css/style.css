@@ -149,6 +149,10 @@ padding: 20px;
     background-color: rgba(236, 138, 229, 0.28)
 }
 
+.drop-down-style{
+    background-color: rgba(236, 138, 229, 0.966)
+}
+
 .card-title{
     text-align: center;
     font-weight: bold;
