@@ -39,7 +39,7 @@ Google Fonts- used to apply the style of font choice (Raleway)
 
 ## Testing:
 HTML validator check- complete- https://validator.w3.org/#validate_by_input
-<script type=”text/javascript”>
+script type=”text/javascript”
  
  this appeared as a unnecessary JS resource- however this was interlinked with Fancybox’s JS script.
 Aria label also flagged up in the modal template used for the ‘Call Now’ button.
