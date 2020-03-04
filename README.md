@@ -214,7 +214,7 @@ Images to create the gallery were taken from [Pinterest](https://www.pinterest.c
 ### Acknowledgments
 Mentor Ignatius for giving me a better understanding of what the UX would mean (in lay man’s terms the less the clicks the better), also advised me to use [Fancybox](http://fancyapps.com/fancybox/3/) for my gallery.  
 I also used [startbootstrapp](https://startbootstrap.com/) to help neaten the lay out alongside this creating a much more professional and a clean looking [gallery](https://startbootstrap.com/snippets/thumbnail-gallery/). 
-Thank you for your support.  
+Thank you for your support. Tim a tutor at code institute also allowed me to view and use his code written for his gallery in his MSP1 as he used a simular concept i wanted for my gallery.
 <br>
 The 'tutor me' staff at [code institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) who spent a lot of time, trying to guide me without giving me the answers!
 I also referred into using some of the following resources available online, to help me with the content and customisation of Injectable Inc.  
