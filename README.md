@@ -1,18 +1,30 @@
 # Injectable Inc
+
 ---
+
 #### User Centric Front End Development 
----
-This website is created for a small business who offer non-surgical aesthetic procedures to enhance, or gain desirable features. The business offers Botox fillers to accentuate, define, or even smooth the appearance of facial features (Nose, Cheekbones, Jawline, and Lips). The fillers are injected by Injectable Inc’s own aesthetic professionals. My task at hand was to create a Front-End responsive website using HTML and CSS as basics, based on the principles of the user experience, accessibility, and responsivity. 
-The framework I have used is based on bootstrap 4, there was an array of different concepts and design templates which made constructing the website simple. However, manipulating the basic structure, using CSS and some HTML got a bit tricky. I used inline styling, and also CSS styling to target specific elements of the project. I used the tutorials from Code Institute, I referred to Stack Overflow, W3schools a lot during the construction of Injectable Inc. 
+
+This website is created for a small business who offer non-surgical aesthetic procedures to enhance, or gain desirable features. The business offers Botox fillers to accentuate, define, or even smooth the appearance of facial features (Nose, Cheekbones, Jawline, and Lips). The fillers are injected by Injectable Inc’s own aesthetic professionals. My task at hand was to create a Front-End responsive website using HTML and CSS as basics, based on the principles of the user experience, accessibility, and responsivity. The framework I have used is based on bootstrap 4, there was an array of different concepts and design templates which made constructing the website simple. However, manipulating the basic structure, using CSS and some HTML got a bit tricky. I used inline styling, and also CSS styling to target specific elements  
+of the project. I used the tutorials from Code Institute, I referred to Stack Overflow, W3schools a lot during the construction of Injectable Inc. 
 
 ---
 
 ## UX
-As a user I would want to feel an attraction and a buzz about the website, as changing any facial features you need to be confident that the person holding the needle, understands your vision of you. Having a website which appeals to you is the first representation of the business. 
+As a user I would want to feel an attraction and a buzz about the website,  
+as changing any facial features you need to be confident that the person holding the needle,  
+understands your vision of you. Having a website which appeals to you is the first representation of the business.  
 
 ### The colour scheme
-The general colour scheme for the aesthetic industry is clinical. As Injectable Inc is a non-surgical cosmetic business, I felt it was appropriate to move away from that ‘white’ theme and dress the site with a theme that would appeal to our target audience (18-40yr olds). The fluid background I used from ‘shutterstock’ had a mix of hologram colours, which I considered to be modern and edgy. I felt that this mix of colours opened up many options for a block colour to be paired with. Originally i decided to use an opaque pink, but this caused issues with the mobile view drop down menu, as the writing wasn’t user friendly. I eventually chose a lilacy-pinky shade, I darkened the dept of the shade but still felt it was appropriate to give a marginal accent of opacity, to keep with the ‘fluid’ theme.
-The pages linked to the index.html also display a splash of colour from the same icecream palette. I also used black for accent styling to add to the modern edge of the appearance. These black hyperlinked headings have a ‘hover’ property which reverts to pink upon selection.
+The general colour scheme for the aesthetic industry is clinical. As Injectable Inc is a non-surgical cosmetic business,  
+I felt it was appropriate to move away from that ‘white’ theme and dress the site with a theme that would appeal to our  
+target audience (18-40yr olds). The fluid background I used from ‘shutterstock’ had a mix of hologram colours, which I  
+considered to be modern and edgy. I felt that this mix of colours opened up many options for a block colour to be paired  
+with. Originally i decided to use an opaque pink, but this caused issues with the mobile view drop down menu, as the  
+writing wasn’t user friendly. I eventually chose a lilacy-pinky shade, I darkened the dept of the shade but still felt  
+it was appropriate to give a marginal accent of opacity, to keep with the ‘fluid’ theme.
+The pages linked to the index.html also display a splash of colour from the same icecream palette.  
+I also used black for accent styling to add to the modern edge of the appearance.  
+These black hyperlinked headings have a ‘hover’ property which reverts to pink upon selection.
 
 ### The walk through
 The home page has a picture of a lady licking a lollypop, focusing the image on the regions the business offers services for such as the lips nose jaw and cheekbones; this holds a visual message for the user. There is a short inviting paragraph which pose questions to the user about their thoughts on themselves. By this point the users who know the procedures they would like to purchase, would click ‘enquire’ and register their interest on a pop-up form. 
@@ -26,7 +38,7 @@ The final step on this page is the ‘call-to-action’ button, which would dial
 Beneath this, for ongoing marketing purposes and further information for our user there are social media icons which are hyperlinked to each site. The user has the option to visit these and potentially follow the business on social media. From a client point of view, the business would earn exposure from users following them and their contacts being able to view Injectable Inc’s posts, in effect having a ripple effect on following. 
 
 ### WireFrames
-Wireframes were created using ‘Balsamiq Mockups 3’- this allowed me to create a computer and a mobile based design. The mobile design doesn’t differ much from the computer-based design, apart from reduced content which gives the user the important content, in a simple and easy to read manner.
+Wireframes were created using [Balsamiq Mockups 3](/assets/mockups/Wireframes.png)- this allowed me to create a computer and a mobile based design. The mobile design doesn’t differ much from the computer-based design, apart from reduced content which gives the user the important content, in a simple and easy to read manner.
 
 ---
 
@@ -57,12 +69,12 @@ Google Fonts- used to apply the style of font choice (Raleway)
 ---
 
 ## Testing:
-HTML validator check- complete- https://validator.w3.org/#validate_by_input
+[HTML validator](https://validator.w3.org/#validate_by_input) check- complete 
 script type=”text/javascript
- this appeared as a unnecessary JS resource- however this was interlinked with Fancybox’s JS script.
+ appeared as a unnecessary JS resource- however this was interlinked with Fancybox’s JS script.
 Aria label also flagged up in the modal template used for the ‘Call Now’ button.
 Font Awesome cdn link attribute was also flagged up as bad practice. 
-CSS validator check complete- https://jigsaw.w3.org/css-validator/validator
+[CSS validator](https://jigsaw.w3.org/css-validator/validator) check complete
 -webkit-background-size, -moz-background-size, -o-background-size all appeared as ‘unknown vendor extensions’.
 
 ### Table of Trial and Error
@@ -137,9 +149,14 @@ Whilst testing the site, I found that Devtools gave different size, spacing and 
 
 ## Deployment,
 This website was deployed on GitHub Pages. 
-The link: https://fudge88.github.io/MS1/index.html
-You first commit and push your code from your Gitpod working space to your GitHub Repository.
-After selecting your project, this should take you to a page with your directories, on the options on a bar above, you select the ‘settings’ tab. Scroll down to the heading of ‘GitHub Pages’, select ‘master branch’ from the drop down menu. This should refresh the page, and take you back to the top. Scroll back down to ‘GitHub Pages’ and you should now have a message reading ‘Your site is published at …..’  this is followed by a link which is unique to your project.
+Click the [link](https://fudge88.github.io/MS1/index.html) to see my GitHub deployed pages.
+1. You first commit and push your code from your Gitpod working space to your GitHub Repository. 
+2. After selecting your project, this should take you to a page with your directories.  
+3. There are options on a bar above, you select the ‘settings’ tab. 
+4. Scroll down to the heading of ‘GitHub Pages’, select ‘master branch’ from the drop down menu. 
+5. This should refresh the page, and take you back to the top. 
+6. Scroll back down to ‘GitHub Pages’ and you should now have a message reading ‘Your site is published at …..’   
+this is followed by a link which is unique to your project.
 
 ### Local Deployment
 As a new developer, I would encourage other users to use my code, and make further improvements, or even use it to facilitate a project they may be working on. 
@@ -152,28 +169,42 @@ This can be done by clicking ‘clone or download’ on my GitHub Directory for 
 The contents were created by myself. Some parts of the descriptions used were collected from Wikipedia.
 
 ### Media
-Images for background and theme taken from Shutterstock:
-Background.JPG Lipscandy.JPG Lips-candy.JPG
-Productlp.JPG productnf.JPG productcf.JPG productcontact.JPG
+Images for background and theme taken from [Shutterstock](https://www.shutterstock.com/home):
+[Background](/assets/images/background.JPG) 
+[Index main image Lg](/assets/images/lipcandy.JPG) 
+[Index main image sm](/assets/images/lip-candy.JPG) 
+[Lip Filler img](/assets/images/productlf.JPG)
+[Nose Filler img](/assets/images/productnf.JPG)
+[Jaw & Cheek Filler img](/assets/images/productcf.JPG) 
+[Contact page img](/assets/images/productcontact.JPG)
 
-Images to create the gallery were taken from Pinterest:
-Jaw1.JPG Jaw2.JPG Jaw3.JPG Jaw4.JPG 
-Lips1.JPG Lips2.JPG Lips3.JPG Lips4.JPG
-Nose1.JPG Nose2.JPG Nose3.JPG Nose4.JPG
+Images to create the gallery were taken from [Pinterest](https://www.pinterest.co.uk/):
+[Jaw 1](/assets/images/jaw1.JPG) 
+[Jaw 2](/assets/images/jaw2.JPG)
+[Jaw 3](/assets/images/jaw3.JPG) 
+[Jaw 4](/assets/images/jaw4.JPG) <br>
+[Lips 1](/assets/images/lips1.JPG)
+[Lips 2](/assets/images/lips2.JPG)
+[Lips 3](/assets/images/lips3.JPG)
+[Lips 4](/assets/images/lips4.JPG) <br>
+[Nose 1](/assets/images/nose1.JPG)
+[Nose 2](/assets/images/nose2.JPG)
+[Nose 3](/assets/images/nose3.JPG)
+[Nose 4](/assets/images/nose4.JPG)
+
 
 ### Acknowledgments
-Mentor Ignatius for giving me a better understanding of what the UX would mean (in lay man’s terms the less the clicks the better), also advised me to use ‘Fancybox’ for my gallery. 
+Mentor Ignatius for giving me a better understanding of what the UX would mean (in lay man’s terms the less the clicks the better), also advised me to use [Fancybox](http://fancyapps.com/fancybox/3/) for my gallery, i also used 'startbootstrapp to help neaten the lay out alongside this creating a much more professional and a clean looking [gallery](https://startbootstrap.com/snippets/thumbnail-gallery/). 
 Thank you for your support.
-The tutor me staff at code institute who spent a lot of time, trying to guide me without giving me the answers!
+The tutor me staff at [code institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) who spent a lot of time, trying to guide me without giving me the answers!
 I also referred into using some of the following resources available online, to help me with the content and customisation of Injectable Inc.
-W3schools.com
-Stackoverflow.com
-Fancyapps.com (Fancybox)
-Youtube.com 
-Css-tricks.com
-Quora.com
-Codepen.io
-Freecodecamp.org
-Getbootstrap.com
-I received inspiration for this project through the current market and demand for such products, as its readily available to anyone. I used mya.co.uk for inspiration when it came to some styling aspects.
+[W3schools.com](https://www.w3schools.com/css/default.asp)
+[Stackoverflow.com](https://stackoverflow.com/questions/3416454/how-to-make-an-empty-div-take-space/33299041)
+[Fancyapps.com](http://fancyapps.com/fancybox/3) (Fancybox)
+[Youtube.com](https://www.youtube.com/watch?v=fWGNEczydM8)
+[Css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/)
+[Codepen.io](https://codepen.io/)
+[Freecodecamp.org](https://www.freecodecamp.org/)
+[Getbootstrap.com](https://getbootstrap.com/docs/4.0/getting-started/introduction/)<br>
+I received inspiration for this project through the current market and demand for such products, as its readily available to anyone. I used [mya.co.uk](https://www.mya.co.uk/?campaign=Brand&gclid=Cj0KCQiAwP3yBRCkARIsAABGiPpfZRbYitF9g6Bh4BJPNQQKRhQ_9oULXyRm19jlOaFFIDgcBaUuwz8aAtNzEALw_wcB) for inspiration when it came to some styling aspects.
 
