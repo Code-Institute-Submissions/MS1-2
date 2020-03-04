@@ -1,47 +1,20 @@
 body {
-font-family: 'Raleway', sans-serif;
-padding-top: 55px;
-}
-
-.modal-body {
-    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 55px;
 }
 
 
-.finance-container .row {
-        flex-wrap: wrap;
-    display: block;
-        margin: 0px;
-}
-
-
-.background-image{
-    background: url("../images/background.JPG") no-repeat center center fixed;
-    background-size: cover;
-}
-
-
-.firstpage-background {
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/*....................................navbar styling..........................*/
 /*navbar styling */
  .navbar {
-     margin-bottom: 0;
-     border: 0;
-     width: 100%;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
     background-color: rgba(243, 157, 240, 0.96);
  }
 
  .navbar-right a{
-float: right;
+    float: right;
  }
 
 .navbar .navbar-toggler{
@@ -53,92 +26,48 @@ float: right;
 }
 
 .navbar .navbar-nav a{
-font-weight: bold;
+    font-weight: bold;
 }
 
 #navbar li a {
     float: right;
 }
 
-.lip-container{
-padding: 0;
-margin: 0;
-border: 0;
-}
-
-.card-link :hover {
-    background-color: rgba(243, 157, 240, 0.96);
-    color: black;
-    text-decoration: none;
-}
-
-/*test image*/
-
-
-/* button*/
-
-.btn-later {
-    background-color: lightgrey;
-    color: gray;
-}
-
-.btn-now {
-        background-color: rgba(243, 157, 240, 0.96);
-}
-
-.btn-call-to-action {
-    font-weight: bolder;
-color: black;
+.drop-down-style{
     background-color: rgba(243, 157, 240, 0.96);
 }
 
 
-.button-spacing {
-    margin-top: 30px;
+/*.................................index.html page...............................*/
+/*background images*/
+.background-image{
+    background: url("../images/background.JPG") no-repeat center center fixed;
+    background-size: cover;
+}
+.firstpage-background {
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*lip-candy*/
+.lip-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
-.opening-statement{
-
-}
-
-.customer-gallery-container{
-
-}
-
-/*reviews*/
-
-.quotes-format{
-    text-align: center;
-}
-
-.finance-container{
-background-color: black;
-color: white;
-padding: 5px
-}
-
-.finance-container h1{
-padding: 20px;
-}
-
-.container-fluid {
-        padding: 40px 40px 20px;
-        margin: 0;
-}
-
-
-.central-items {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/*products section*/
 .card-body{
-background-color: black;
-color: white;
-flex: none;
-min-height: 1px;
-padding: 20px;
+    background-color: black;
+    color: white;
+    flex: none;
+    min-height: 1px;
+    padding: 20px;
 }
 
 .card-group .card{
@@ -148,23 +77,51 @@ padding: 20px;
     border: none;
 }
 
-.pink-undertone{
-    background-color: rgba(236, 138, 229, 0.28)
-}
-
-.drop-down-style{
-        background-color: rgba(243, 157, 240, 0.96);
-}
-
 .card-title{
     text-align: center;
     font-weight: bold;
 }
 
+/*gallery and review styling section*/
+.central-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/*custome reviews section*/
+.quotes-format{
+    text-align: center;
+}
 
+/*finance offer section*/
+.finance-container{
+    background-color: black;
+    color: white;
+    padding: 5px
+}
 
-.sub-headings{
+.finance-container .row {
+    flex-wrap: wrap;
+    display: block;
+    margin: 0px;
+}
+
+.finance-container h1{
+    padding: 20px;
+}
+
+/*customer journey styling*/
+.journey-container h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*heading text styling*/
+.sub-headings {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 20px;
@@ -174,11 +131,13 @@ padding: 20px;
     font-weight: bolder;
     }
 
-/*jumbotron-header*/
 .jumbotron-header {
     font-weight: bold;
     margin-bottom: 30px;
 }
+
+
+/*.................................accessory styling.................................*/
 /*page dividers*/
 .page-divider {
     width: 75px;
@@ -189,33 +148,47 @@ padding: 20px;
     margin-bottom: 30px;
 }
 
-
-.journey-container h2{
-    margin-top: 0;
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-    font-weight: bold;
+/*button*/
+.btn-later {
+    background-color: lightgrey;
+    color: gray;
 }
 
-.footer-details{
-padding: 20px;
+.btn-now {
+    background-color: rgba(243, 157, 240, 0.96);
 }
 
-.footer-details h5 {
-        padding-left: 20px
-    }
-
-.container-fluid{
-        padding: 0;
+.btn-call-to-action {
+    font-weight: bolder;
+    color: black;
+    background-color: rgba(243, 157, 240, 0.96);
 }
 
-/*social networks- footer*/
-.social-icons a i {
-font-size: larger;
-color: black;
+.button-spacing {
+    margin-top: 30px;
 }
 
+/*hover styling*/
+.card-link :hover {
+    background-color: rgba(243, 157, 240, 0.96);
+    color: black;
+    text-decoration: none;
+}
+
+
+/*....................................modal styling..............................*/
+/*modal colouring*/
+.pink-undertone{
+    background-color: rgba(236, 138, 229, 0.28)
+}
+
+/*modal styling*/
+.modal-body {
+    text-align: left;
+}
+
+
+/*.................................column and row styling...................................*/
 .row {
 display: flex;
 flex-wrap: wrap;
@@ -234,18 +207,12 @@ padding: 0 4px;
 }
 
 
-
-#empty-space {
-    height: 120px;
-    width: 90%;
-    position: absolute;
-    margin: 30px;
-}
-
-/*........lipfiller page*/
+/*.................product pages - lip /Jaw & Cheek / Nose / Contact us pages.....................*/
+/*images*/
 .procedure-info img {
     margin-right: 10px;
 }
+
 .procedure-info .img-left {
     float: left;
     padding-bottom: 30px;
@@ -253,6 +220,7 @@ padding: 0 4px;
     width: 350px
 }
 
+/*text styling*/
 .info-product {
     padding-right: 20px;
     position: absolute;
@@ -260,11 +228,6 @@ padding: 0 4px;
     padding-left: 20px;
     margin-left: 25px;
     padding-top: 20px;
-    /*margin-bottom: 24vh;*/
-}
-
-.contact-details p {
-    line-height: 1px;
 }
 
 .info-product h3 {
@@ -278,18 +241,21 @@ padding: 0 4px;
     padding-right: 20px;
 }
 
-@media screen and (max-width:767px) {
-.index-image-big { display: none;}
-.img-left{ display: none;}
-/*.info-product {
-    background: url(../assets/images/background2.JPG) center no-repeat;
-    background-size: cover;}*/
-.page-footer h5 {
-    display: none;
-    }
+/*spacing div*/
+#empty-space {
+    height: 120px;
+    width: 90%;
+    position: absolute;
+    margin: 30px;
 }
 
 
+/*.....................................media queries.....................................*/
+@media screen and (max-width:767px) {
+.index-image-big { display: none;}
+.img-left{ display: none;}
+.page-footer h5 {display: none;}
+}
 
 @media screen and (min-width:768px) and (max-width:991px) {
 .index-image-small { display: none;}
@@ -297,4 +263,24 @@ padding: 0 4px;
 
 @media screen and (min-width:929px) {
 .index-image-small { display: none;}
+}
+
+
+/*.....................................footer styling.......................................*/
+.footer-details{
+    padding: 20px;
+}
+
+.footer-details h5 {
+    padding-left: 20px
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/*social networks- footer*/
+.social-icons a i {
+font-size: larger;
+color: black;
 }
