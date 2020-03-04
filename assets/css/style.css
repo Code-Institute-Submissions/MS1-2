@@ -190,14 +190,14 @@ body {
 
 /*.................................column and row styling...................................*/
 .row {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
 .column img {
@@ -281,6 +281,6 @@ padding: 0 4px;
 
 /*social networks- footer*/
 .social-icons a i {
-font-size: larger;
-color: black;
+    font-size: larger;
+    color: black;
 }
